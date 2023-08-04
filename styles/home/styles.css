@@ -1,0 +1,114 @@
+.hero-section {
+  background-color: #e7816b;
+  background-image: url("./../../public/assets/home/desktop/bg-pattern-hero-home.svg");
+  background-repeat: no-repeat;
+  background-position: 0 6.375rem;
+  height: 52.6875rem;
+  padding-top: 5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* TEXT CONTENT */
+.hero-section__text-content {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto 5rem auto;
+  width: 87.2%;
+}
+
+.hero-section__text-content h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.25rem;
+  margin: 0 auto 0.875rem auto;
+  max-width: 35.8125rem;
+}
+
+.hero-section__text-content p {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  max-width: 27.8125rem;
+  margin: 0 auto 1.5rem auto;
+}
+
+.hero-section__text-content a {
+  display: inline-block;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333136;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 1.125rem 1.5625rem 1rem 1.5rem;
+}
+
+/* HERO IMAGE */
+.hero-section img {
+}
+
+@media (min-width: 48rem) {
+  .hero-section {
+    border-radius: 0.9375rem;
+    background-position: right -121.55px top 101.5px;
+    width: 89.7135416667%;
+    padding-top: 3.75rem;
+    margin: 0 auto 7.5rem auto;
+  }
+
+  /* TEXT CONTENT */
+  .hero-section__text-content {
+    margin: 0 auto 4.3125rem auto;
+    width: 35.8125rem;
+  }
+
+  .hero-section__text-content h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin: 0 auto 0.5rem auto;
+  }
+
+  .hero-section__text-content p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 0 auto 1.1875rem auto;
+  }
+}
+
+@media (min-width: 90rem) {
+  .hero-section {
+    background-position: right 0 top 0;
+    width: 77.1527777778%;
+    height: 40rem;
+    padding: 9.0625rem 0 9.0625rem 8.55085508551%;
+    margin: 0 auto 10rem auto;
+  }
+
+  .hero-section__text-content {
+    margin: 0;
+    text-align: left;
+    width: 33.75rem;
+  }
+
+  .hero-section__text-content h1 {
+    margin: 0 0 0.6875rem 0;
+  }
+
+  .hero-section__text-content p {
+    margin: 0 0 2.5rem 0;
+  }
+
+  .hero-section__text-content a {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hero-section__text-content a:hover {
+    color: #fff;
+    background: #ffad9b;
+  }
+}
