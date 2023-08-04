@@ -27,6 +27,8 @@ ul.desktop-nav__menu {
   top: 6rem;
   left: 0;
   width: 100%;
+  min-height: 100vh;
+  z-index: 1000;
 }
 
 ul.mobile-nav__dropdown-menu {
