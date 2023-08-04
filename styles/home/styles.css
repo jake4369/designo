@@ -156,6 +156,10 @@
   line-height: 1.625rem;
 }
 
+.features-section__bg-img {
+  display: none;
+}
+
 @media (min-width: 48rem) {
   /* ==========
   HERO SECTION
@@ -330,7 +334,18 @@
     gap: 1.875rem;
     width: 77.1527777778%;
     max-width: 69.4375rem;
-    margin: 0 auto 23.75rem auto;
+    margin: 0 auto;
+    padding-bottom: 23.75rem;
+    position: relative;
+  }
+
+  .features-section__bg-img {
+    display: block;
+    position: absolute;
+    top: 7.75rem;
+    right: 0;
+    transform: rotate(180deg);
+    z-index: -1;
   }
 
   .feature {
