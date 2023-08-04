@@ -1,13 +1,20 @@
+import "@styles/globals.css";
+
+import Nav from "@components/Nav";
+
 export const metadata = {
   title: "Designo",
   description: "Designo - web design and development agency",
 };
 
-const RootLayout = () => {
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
-        <main>{children}</main>
+        <main>
+          <Nav />
+          {children}
+        </main>
       </body>
     </html>
   );
