@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Jost:wght@400;500&display=swap");
+
+@import url("./nav/styles.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Jost", Arial, Helvetica, sans-serif;
+}
+
+.main {
+  width: 100vw;
+  min-height: 100vh;
+}

@@ -1,0 +1,117 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 2.1875rem 6.4%;
+}
+
+ul.desktop-nav__menu {
+  display: none;
+}
+
+.mobile-nav__menu-btn {
+  position: relative;
+  height: 1.25rem;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mobile-nav__dropdown-container {
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  width: 100%;
+}
+
+ul.mobile-nav__dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: #1d1c1e;
+  padding: 3rem 0 3rem 6.4%;
+}
+
+ul.mobile-nav__dropdown-menu li a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  letter-spacing: 0.125rem;
+}
+
+.mobile-nav__dropdown-filter {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media (min-width: 48rem) {
+  nav {
+    padding: unset;
+    margin: 4rem auto;
+    width: 89.7135416667%;
+  }
+
+  .mobile-nav__menu-btn,
+  .mobile-nav__container {
+    display: none;
+  }
+
+  ul.desktop-nav__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 23.125rem;
+  }
+
+  ul.desktop-nav__menu li a {
+    color: #333136;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    letter-spacing: 0.125rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  nav {
+    width: 77.1527777778%;
+  }
+
+  ul.desktop-nav__menu li a {
+    display: inline-block;
+    position: relative;
+  }
+
+  ul.desktop-nav__menu li a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(51, 49, 54, 0.5);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  ul.desktop-nav__menu li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}
