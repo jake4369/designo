@@ -1,12 +1,30 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
 
 const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
+
+  useEffect(() => {
+    const handleMainOverflow = () => {
+      const mainElement = document.querySelector("html");
+      if (mainElement) {
+        mainElement.style.overflowY = navOpen ? "hidden" : "auto";
+      }
+    };
+
+    handleMainOverflow();
+
+    return () => {
+      const mainElement = document.querySelector("html");
+      if (mainElement) {
+        mainElement.style.overflowY = "auto";
+      }
+    };
+  }, [navOpen]);
 
   const handleClick = () => {
     setNavOpen((prev) => !prev);
