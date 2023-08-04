@@ -54,6 +54,15 @@ const Features = () => {
           </p>
         </div>
       </div>
+
+      <Image
+        src="/assets/shared/desktop/bg-pattern-leaf.svg"
+        alt=""
+        aria-disabled
+        width={1006}
+        height={594}
+        className="features-section__bg-img"
+      />
     </div>
   );
 };
