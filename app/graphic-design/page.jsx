@@ -7,7 +7,7 @@ const GraphicDesign = () => {
     <ProjectPage
       data={graphicDesignData}
       pageTitle="Graphic Design"
-      text={
+      mainText={
         "We deliver eye-catching branding materials that are tailored to meet your business objectives."
       }
     />
