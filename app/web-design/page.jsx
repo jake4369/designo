@@ -7,7 +7,7 @@ const WebDesign = () => {
     <ProjectPage
       data={webDesignData}
       pageTitle="Web Design"
-      text={
+      mainText={
         "We build websites that serve as powerful marketing tools and bring memorable brand experiences."
       }
     />
