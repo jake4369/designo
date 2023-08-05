@@ -1,5 +1,17 @@
+import { graphicDesignData } from "@data/data";
+
+import ProjectPage from "@components/shared/ProjectPage";
+
 const GraphicDesign = () => {
-  return <div>GraphicDesign</div>;
+  return (
+    <ProjectPage
+      data={graphicDesignData}
+      pageTitle="Graphic Design"
+      text={
+        "We deliver eye-catching branding materials that are tailored to meet your business objectives."
+      }
+    />
+  );
 };
 
 export default GraphicDesign;
