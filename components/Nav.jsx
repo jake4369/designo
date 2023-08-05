@@ -32,12 +32,14 @@ const Nav = () => {
 
   return (
     <nav>
-      <Image
-        src="/assets/shared/desktop/logo-dark.png"
-        alt="Designo logo"
-        width={202}
-        height={27}
-      />
+      <Link href="/">
+        <Image
+          src="/assets/shared/desktop/logo-dark.png"
+          alt="Designo logo"
+          width={202}
+          height={27}
+        />
+      </Link>
 
       {/* DESKTOP NAV */}
       <ul className="desktop-nav__menu">
