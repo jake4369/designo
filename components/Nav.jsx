@@ -73,13 +73,19 @@ const Nav = () => {
           <div className="mobile-nav__dropdown-container">
             <ul className="mobile-nav__dropdown-menu">
               <li>
-                <Link href="/about">Our company</Link>
+                <Link href="/about" onClick={() => setNavOpen(false)}>
+                  Our company
+                </Link>
               </li>
               <li>
-                <Link href="/locations">Locations</Link>
+                <Link href="/locations" onClick={() => setNavOpen(false)}>
+                  Locations
+                </Link>
               </li>
               <li>
-                <Link href="/contact">Contact</Link>
+                <Link href="/contact" onClick={() => setNavOpen(false)}>
+                  Contact
+                </Link>
               </li>
             </ul>
 
