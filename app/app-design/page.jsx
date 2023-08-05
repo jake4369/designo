@@ -7,7 +7,7 @@ const AppDesign = () => {
     <ProjectPage
       data={appDesignData}
       pageTitle="App Design"
-      text={
+      mainText={
         "Our mobile designs bring intuitive digital solutions to your customers right at their fingertips."
       }
     />
