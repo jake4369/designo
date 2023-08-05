@@ -44,13 +44,13 @@ const Nav = () => {
       {/* DESKTOP NAV */}
       <ul className="desktop-nav__menu">
         <li>
-          <Link href="/">Our company</Link>
+          <Link href="/about">Our company</Link>
         </li>
         <li>
-          <Link href="/">Locations</Link>
+          <Link href="/locations">Locations</Link>
         </li>
         <li>
-          <Link href="/">Contact</Link>
+          <Link href="/contact">Contact</Link>
         </li>
       </ul>
 
@@ -73,13 +73,13 @@ const Nav = () => {
           <div className="mobile-nav__dropdown-container">
             <ul className="mobile-nav__dropdown-menu">
               <li>
-                <Link href="/">Our company</Link>
+                <Link href="/about">Our company</Link>
               </li>
               <li>
-                <Link href="/">Locations</Link>
+                <Link href="/locations">Locations</Link>
               </li>
               <li>
-                <Link href="/">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
 
