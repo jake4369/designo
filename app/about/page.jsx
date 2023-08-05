@@ -4,6 +4,8 @@ import Image from "next/image";
 
 import { useEffect, useState } from "react";
 
+import LocationsSection from "@components/shared/LocationsSection";
+
 const About = () => {
   const [heroImgSrc, setheroImgSrc] = useState("");
   const [talentImgSrc, setTalentImgSrc] = useState("");
@@ -93,6 +95,8 @@ const About = () => {
           </p>
         </div>
       </section>
+
+      <LocationsSection />
 
       <section className="about-us-section">
         <Image
