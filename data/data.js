@@ -30,3 +30,49 @@ export const webDesignData = [
     text: "Get expert training in coding, data, design, and digital marketing",
   },
 ];
+
+export const appDesignData = [
+  {
+    image: "/assets/app-design/desktop/image-airfilter.jpg",
+    heading: "AIRFILTER",
+    text: "Solving the problem of poor indoor air quality by filtering the air",
+  },
+  {
+    image: "/assets/app-design/desktop/image-eyecam.jpg",
+    heading: "EYECAM",
+    text: "Product that lets you edit your favorite photos and videos at any time",
+  },
+  {
+    image: "/assets/app-design/desktop/image-faceit.jpg",
+    heading: "FACEIT",
+    text: "Get to meet your favorite internet superstar with the faceit app",
+  },
+  {
+    image: "/assets/app-design/desktop/image-todo.jpg",
+    heading: "TODO",
+    text: "A todo app that features cloud sync with light and dark mode",
+  },
+  {
+    image: "/assets/app-design/desktop/image-loopstudios.jpg",
+    heading: "LOOPSTUDIOS",
+    text: "A VR experience app made for Loopstudios",
+  },
+];
+
+export const graphicDesignData = [
+  {
+    image: "/assets/graphic-design/desktop/image-change.jpg",
+    heading: "TIM BROWN",
+    text: "A book cover designed for Tim Brown’s new release, ‘Change’",
+  },
+  {
+    image: "/assets/graphic-design/desktop/image-boxed-water.jpg",
+    heading: "BOXED WATER",
+    text: "A simple packaging concept made for Boxed Water",
+  },
+  {
+    image: "/assets/graphic-design/desktop/image-science.jpg",
+    heading: "SCIENCE!",
+    text: "A poster made in collaboration with the Federal Art Project",
+  },
+];
