@@ -2,6 +2,7 @@
 
 @import url("./nav/styles.css");
 @import url("./home/styles.css");
+@import url("./about/styles.css");
 @import url("./footer/styles.css");
 
 * {
