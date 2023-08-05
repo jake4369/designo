@@ -39,6 +39,7 @@ const ProjectPage = ({ data, pageTitle, mainText }) => {
             key={link.href}
             href={link.href}
             heading={link.heading}
+            linkClass={link.heading.split(" ")[0]}
           />
         ))}
       </section>
