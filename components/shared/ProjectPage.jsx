@@ -27,14 +27,7 @@ const ProjectPage = ({ data, pageTitle, mainText }) => {
     ],
   };
 
-  const currentCategory =
-    pageTitle === "Web Design"
-      ? "Web Design"
-      : pageTitle === "App Design"
-      ? "App Design"
-      : "Graphic Design";
-
-  const currentCategoryLinks = categories[currentCategory];
+  const currentCategoryLinks = categories[pageTitle];
 
   return (
     <div className="project__page">
