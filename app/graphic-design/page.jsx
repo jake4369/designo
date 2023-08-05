@@ -1,6 +1,6 @@
 import { graphicDesignData } from "@data/data";
 
-import ProjectPage from "@components/shared/ProjectPage";
+import ProjectPage from "@components/shared/projectPages/ProjectPage";
 
 const GraphicDesign = () => {
   return (
