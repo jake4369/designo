@@ -1,0 +1,118 @@
+.location-info-section {
+  margin-bottom: 2.5rem;
+}
+
+.location-info-section:last-of-type {
+  margin-bottom: 19.375rem;
+}
+
+.location-info-section img {
+  width: 100%;
+  height: auto;
+}
+
+.location-data__contact-info {
+  text-align: center;
+  padding: 5rem 6.4%;
+  background-color: rgb(253, 243, 240);
+}
+
+.location-name {
+  display: inline-block;
+  color: #e7816b;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info__flex-container p {
+  color: #333136;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5625rem;
+}
+
+.contact-info__flex-container p:first-of-type {
+  margin-bottom: 1.5rem;
+}
+
+.contact-info__flex-container p span {
+  display: block;
+  font-weight: 700;
+}
+
+@media (min-width: 38.75rem) {
+  .location-info-section {
+    width: 89.7135416667%;
+    margin: 0 auto 7.5rem auto;
+  }
+
+  .location-info-section:last-of-type {
+    margin: 0 auto 24rem auto;
+  }
+
+  .location-info-section img {
+    border-radius: 0.9375rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .location-data__contact-info {
+    text-align: left;
+    border-radius: 0.9375rem;
+    padding: 5.5rem 10.885341074%;
+  }
+
+  .contact-info__flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 26.875rem;
+  }
+
+  .location-name {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .contact-info__flex-container p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
+  .contact-info__flex-container p:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .contact-info__flex-container p span {
+    display: block;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 90rem) {
+  .location-info-section {
+    height: 20.375rem;
+    width: 77.1527777778%;
+    margin: 0 auto 2rem auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .location-info-section:last-of-type {
+    margin-bottom: 23.75rem;
+  }
+
+  .location-info-section img {
+    margin-bottom: 0;
+    width: 31.503150315%;
+    height: 100%;
+  }
+
+  .location-data__contact-info {
+    padding: 5.5rem 8.55085508551%;
+    width: 65.7065706571%;
+  }
+}
